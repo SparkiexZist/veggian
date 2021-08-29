@@ -12,3 +12,25 @@
     font-style: normal;
     font-weight: bold;
 }
+
+.btn-click
+{
+    padding: 13px 10px 0px 10px;
+    left 50%;
+    border-radius: 10px;
+    background: lightgreen;
+    color: white;
+    font-size: 18px;
+    border: transparent;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: bold;
+    outline: none;
+}
+
+.btn-click:hover {
+  background: darkgreen;;
+}
